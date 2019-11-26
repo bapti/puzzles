@@ -25,15 +25,6 @@ describe("Kids easy mode", () => {
     totalize({
       mode: "KIDS_EASY"
     });
-    /*
-Start number, then 9 calculations gives answer
-Each calculation step must result in a whole, positive number
-At least one each of: +, -, x, ÷ (fractions and percentages can count as x and ÷)
-No consecutive identical functions unless in different format
-All steps and answers <1000 (*Excludes Adult puzzles – See separate note below)
-Halve it, double it etc., can fall into any step location
-
-    */
   });
 });
 
